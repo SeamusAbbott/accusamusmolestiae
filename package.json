@@ -1,0 +1,87 @@
+{
+  "name": "accusamusmolestiae",
+  "version": "1.0.0",
+  "description": "Checkbox with autocomplete and other additions for Inquirer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeamusAbbott/accusamusmolestiae.git"
+  },
+  "keywords": [
+    "inquirer",
+    "checkbox",
+    "ex",
+    "search",
+    "iusto",
+    "odit",
+    "est",
+    "source",
+    "api",
+    "promise",
+    "command",
+    "prompt",
+    "stdin",
+    "nostrum",
+    "autem",
+    "menu"
+  ],
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": [
+      {
+        "import": "./dist/esm/index.js",
+        "require": "./dist/cjs/index.js"
+      }
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "ValentinPouros",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-cursor": "^3.1.0",
+    "figures": "^3.2.0",
+    "inquirer": "^8.2.5",
+    "rxjs": "^7.5.7"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@tsconfig/node14": "^1.0.3",
+    "@types/inquirer": "^9.0.2",
+    "@types/jest": "^29.2.0",
+    "@types/node": "^18.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "cross-env": "^7.0.3",
+    "ctix": "^1.5.2",
+    "deps-diff": "^1.0.0",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsdoc": "^39.3.25",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "execa": "^5.1.1",
+    "fuzzy": "^0.1.3",
+    "just-task": "^1.6.1",
+    "prettier-eslint": "^15.0.1",
+    "prettier-plugin-organize-imports": "^3.1.1",
+    "read-pkg": "^5.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-ts": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SeamusAbbott/accusamusmolestiae.git/issues"
+  },
+  "homepage": "https://github.com/SeamusAbbott/accusamusmolestiae.git"
+}
